@@ -354,7 +354,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionInnerList.Padding = UDim.new(0, 3)
             --
             sectionText = sectionText or "Section"
-            local isDropped = false
+            local isDropped = true
             --
 
             sectionFrame.Name = "sectionFrame"
